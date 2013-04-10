@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Advertising | Ankush Goyal]]></title>
+  <link href="http://ankushgoyal.github.io/blog/categories/advertising/atom.xml" rel="self"/>
+  <link href="http://ankushgoyal.github.io/"/>
+  <updated>2013-04-10T00:23:59-07:00</updated>
+  <id>http://ankushgoyal.github.io/</id>
+  <author>
+    <name><![CDATA[Ankush Goyal]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Online Targeting]]></title>
+    <link href="http://ankushgoyal.github.io/blog/2013/04/09/online-targeting/"/>
+    <updated>2013-04-09T22:29:00-07:00</updated>
+    <id>http://ankushgoyal.github.io/blog/2013/04/09/online-targeting</id>
+    <content type="html"><![CDATA[<p>Couple of months ago I needed to explore online targeting space and understand the nitty-grittys for a project.
+This is going to be a multi part post aimed at sharing what I learned in the process.</p>
+
+<h2>Actors Involved</h2>
+
+<ul>
+<li><b>Consumer</b>: potential target</li>
+<li><b>Publisher (OR affiliate)</b>: billboard - popular websites (like, yahoo homepage/ new-york times) where we can serve an ad</li>
+<li><b>Merchant/ Retailer/ Brand/ Advertiser</b> - one who is trying to target/ retarget a consumer. From now on, I will refer to it as Advertiser.</li>
+<li><b>Network</b>: Mediator or bridge between Advertiser and Publisher. Eg: Doubleclick, Yahoo</li>
+</ul>
+
+
+<h2>Behavior Retargeting</h2>
+
+<p>Behavior retargeting takes into account various factors like time of visit/ amount of time spent/ products searched etc. And, based on these very specific behaviors create user profile to determine when and how to retarget this user.
+To be able to do this, retargeting website needs to have direct relationship with publishers to place a javascript on publisher's website that would gather various metrics and send back to retargeting website.</p>
+
+<h4>Companies providing this service:</h4>
+
+<ul>
+<li>Criteo</li>
+</ul>
+
+
+<h2>Search Retargeting</h2>
+
+<p>This is simpler than behavior retargeting and takes into account only the search term a particular user is interested in.</p>
+
+<h4>Particular Scenario:</h4>
+
+<ol>
+<li>User does a search in a search engine - google/ yahoo/ bing</li>
+<li>He clicks on one of the results (lets say overstock.com)</li>
+<li>Overstock.com has partnered with a Search retargeting network (lets say Simpli.fi)</li>
+<li>Overstock.com gets the referer url from search engine, which usually has search query (note: google no longer forwards the search query)</li>
+<li>Overstock forwards the referer url to Simpli.fi, and Simpli.fi might cookie the user or track him via IP address or both</li>
+<li>Now user performs more meta searches on Overstock</li>
+<li>Each of those searches are sent back to Simpli.fi</li>
+<li>Now user goes away, without purchase</li>
+<li>Simpli.fy now has this users profile</li>
+<li>This user now goes back to another publisher site in Simpli.fi's network</li>
+<li>Simpli.fi now can serve a targeted ad to the user from Overstock</li>
+</ol>
+
+
+<h4>Companies providing this service:</h4>
+
+<ul>
+<li>Chango</li>
+<li>Simpli.fi</li>
+<li>Magnetic</li>
+</ul>
+
+
+<h2>Site Retargeting</h2>
+
+<p>This is the old fashioned retargeting, where a user comes to your website and looks for something but doesn't buy it.
+He goes out to some other website on same network, and you show him some relevant ad to lure him back to complete the purchase (conversion).</p>
+
+<h2>Contextual Targeting</h2>
+
+<p>This is more generalized version of search retargeting. Basically, instead of bidding for specific search keywords, advertisers can bid for a whole genre, like <em>Automotive</em> OR <em>Food &amp; Drinks</em> etc. This allows them to target a wider audience interested in a category they serve in.</p>
+
+<h4>Companies providing this service:</h4>
+
+<ul>
+<li>Simpli.fi</li>
+</ul>
+
+
+<h2>Geo Targeting</h2>
+
+<p>As the name suggests, this is location based retargeting. Usually, location data is obtained by cross-referencing IP address against a GeoIP database/ service.</p>
+
+<h4>Companies providing this service:</h4>
+
+<ul>
+<li>Simpli.fi</li>
+</ul>
+
+
+<h2>IP Targeting</h2>
+
+<p>This is an alternative/ other form of Geo targeting at a granular level. For example, if you want to target users at a very granular level (A new restaurant in a Convention Center, trying to target all the internet users in that center)
+This is usually done by IP ranges.</p>
+
+<h4>Companies providing this service:</h4>
+
+<ul>
+<li>Simpli.fi</li>
+</ul>
+
+
+<h2>Demographic Targeting</h2>
+
+<p>This is where social ad platforms like facebook and twitter come into picture. Since, they have user's personal info such as likes, dislikes, age, location they can leverage that to serve a very targeted Ad.</p>
+
+<hr />
+]]></content>
+  </entry>
+  
+</feed>
